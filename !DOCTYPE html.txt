@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Video & Photo Editing Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Professional Editing Services</h1>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#blog">Blog</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#about">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="services" class="section">
+            <h2>Services</h2>
+            <p>I offer a range of services to assist video and photo editors, including:</p>
+            <ul>
+                <li>Software sourcing and sales</li>
+                <li>Software installation and deployment</li>
+                <li>Troubleshooting and technical support</li>
+                <li>One-on-one training and consultation</li>
+            </ul>
+        </section>
+        <section id="blog" class="section">
+            <h2>Blog</h2>
+            <p>Stay updated with the latest tips, tutorials, and insights in video and photo editing.</p>
+            <!-- Blog posts will be dynamically added here -->
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Portfolio</h2>
+            <p>Check out some of my recent work in video and photo editing:</p>
+            <!-- Portfolio items will be dynamically added here -->
+        </section>
+        <section id="testimonials" class="section">
+            <h2>Testimonials</h2>
+            <p>See what my clients have to say about my services:</p>
+            <!-- Testimonials will be dynamically added here -->
+        </section>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a professional video and photo editor. I have a strong interest in helping many editors achieve their dreams, so I go out of my way to source software and tools that will make their work easier and more enjoyable. I sell retail software that provides value to buyers. I have decided to share my wealth of knowledge by providing after-sales services like software installation, deployment, and troubleshooting as needed.</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Get in touch with me for inquiries or to discuss how I can help you:</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Professional Video & Photo Editing Services</p>
+    </footer>
+</body>
+</html>
